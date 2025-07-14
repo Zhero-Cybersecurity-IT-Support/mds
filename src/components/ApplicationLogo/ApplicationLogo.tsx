@@ -23,7 +23,6 @@ import Operator from "./Logos/Operator/Operator";
 import DirectPV from "./Logos/DirectPV/DirectPV";
 import KES from "./Logos/KES/KES";
 import SUBNET from "./Logos/SUBNET/SUBNET";
-import ConsoleSingle from "./Logos/Console/ConsoleSingle";
 import SubnetOPS from "./Logos/SubnetOPS/SubnetOPS";
 import Cloud from "./Logos/Cloud/Cloud";
 import Releases from "./Logos/Releases/Releases";
