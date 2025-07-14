@@ -46,6 +46,8 @@ import MinIOEnterpriseOSVertical from "./Logos/MinIO/MinIOEnterpriseOSVertical";
 import AIStor from "./Logos/AIStor/AIStor";
 import AIStorHorizontal from "./Logos/AIStor/AIStorHorizontal";
 import AIStorTag from "./Logos/AIStor/AIStorTag";
+import CustomLogo from "./Logos/Console/CustomLogo";
+
 
 const ApplicationLogo: FC<ApplicationLogoProps> = ({
   applicationName,
@@ -57,13 +59,13 @@ const ApplicationLogo: FC<ApplicationLogoProps> = ({
     case "console":
       switch (subVariant) {
         case "standard":
-          return <ConsoleStandard inverse={!!inverse} onClick={onClick} />;
+          return <CustomLogo inverse={!!inverse} onClick={onClick} />;
         case "enterprise":
-          return <ConsoleEnterprise inverse={!!inverse} onClick={onClick} />;
+          return <CustomLogo inverse={!!inverse} onClick={onClick} />;
         case "AGPL":
-          return <ConsoleAGPL inverse={!!inverse} onClick={onClick} />;
+          return <CustomLogo inverse={!!inverse} onClick={onClick} />;
         default:
-          return <ConsoleSingle inverse={!!inverse} onClick={onClick} />;
+          return <CustomLogo inverse={!!inverse} onClick={onClick} />;
       }
       break;
     case "directpv":

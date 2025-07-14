@@ -1,6 +1,6 @@
 import remarkGfm from "remark-gfm";
 
-module.exports = {
+export default {
   stories: ["../src/**/**/*.mdx", "../src/**/**/*.stories.@(js|jsx|ts|tsx)"],
   core: {
     disableTelemetry: true,
