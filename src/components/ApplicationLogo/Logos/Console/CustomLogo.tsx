@@ -3,7 +3,9 @@ import LogoBase from "../LogoBase/LogoBase";
 import { LogoBaseProps } from "../LogoBase/LogoBase.types";
 
 
-import poster from "../../../assets/background/zhero.png";
+// import poster from "../../../assets/background/zhero.png";
+
+const poster = require("../../../assets/background/zhero.png");
 
 const CustomLogo: FC<SVGProps<any> & LogoBaseProps> = ({ inverse, onClick }) => {
   

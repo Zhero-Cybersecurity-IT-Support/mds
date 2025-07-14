@@ -332,6 +332,7 @@ export interface SliderProps {
 }
 
 export interface ThemeDefinitionProps {
+  [key: string]: any;
   bgColor: string;
   fontColor: string;
   borderColor: string;
