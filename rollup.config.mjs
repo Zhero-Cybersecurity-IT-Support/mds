@@ -6,6 +6,7 @@ import typescript from "@rollup/plugin-typescript";
 import css from "rollup-plugin-import-css";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import copy from "rollup-plugin-copy";
+import image from '@rollup/plugin-image';
 
 export default [
   {
@@ -27,6 +28,7 @@ export default [
       commonjs(),
       typescript({ tsconfig: "./tsconfig.json" }),
       terser(),
+       image(),
       css({ alwaysOutput: true, minify: true }),
       copy({
         targets: [{ src: "src/components/assets", dest: "dist" }],
