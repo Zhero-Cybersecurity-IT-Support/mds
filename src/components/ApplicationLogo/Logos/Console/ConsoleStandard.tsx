@@ -18,7 +18,7 @@ import React, { FC, SVGProps } from "react";
 import LogoBase from "../LogoBase/LogoBase";
 import { LogoBaseProps } from "../LogoBase/LogoBase.types";
 
-const poster = require("../../../assets/background/zhero.png");
+import poster from "../../../assets/background/zhero.png";
 
 const ConsoleStandard: FC<SVGProps<any> & LogoBaseProps> = ({
   inverse,
