@@ -186,7 +186,7 @@ const LoginWrapper: FC<LoginWrapperProps> = ({
     <CustomLogin>
       <Grid container className={"mainContainer"} wrap={"nowrap"}>
         <Grid item xs={"hidden"} sm={"hidden"} md className={"decorationPanel"}>
-          {(promoInfo || promoHeader) && (
+          {/* {(promoInfo || promoHeader) && (
             <Grid container>
               <Grid item className={"promoContainer"}>
                 <Grid item className={"promoHeader"}>
@@ -197,7 +197,7 @@ const LoginWrapper: FC<LoginWrapperProps> = ({
                 </Grid>
               </Grid>
             </Grid>
-          )}
+          )} */}
           <Grid item className={"videoContainer"}>
             {GPUAvailable && backgroundAnimation ? (
               <video
@@ -225,11 +225,11 @@ const LoginWrapper: FC<LoginWrapperProps> = ({
               <Grid item xs className={"form"}>
                 {form}
               </Grid>
-              {formFooter && (
+              {/* {formFooter && (
                 <Grid item xs className={"footer"}>
                   {formFooter}
                 </Grid>
-              )}
+              )} */}
             </Grid>
           </Grid>
         </Grid>
